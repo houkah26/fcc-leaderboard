@@ -1,0 +1,12 @@
+@import "../../styles/_colors.scss";
+
+.Header {
+  background: $fccGreen;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  &__ImgLink {
+    padding-left: 1rem;
+  }
+}

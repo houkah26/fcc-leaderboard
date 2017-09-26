@@ -1,0 +1,25 @@
+@import "../../styles/_colors.scss";
+
+$headerHeight: 3rem;
+$fccGreenBorder: 0.125rem solid $fccGreen;
+
+.Leaderboard {
+  background: rgba(255, 255, 255, 0.6);
+  max-width: 62.5rem;
+  margin: 0 auto;
+  border: $fccGreenBorder;
+  border-top-left-radius: $headerHeight;
+  border-top-right-radius: $headerHeight;
+
+  &__Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $headerHeight;
+    color: $fccGreen;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 0.25rem 0;
+    border-bottom: $fccGreenBorder;
+  }
+}

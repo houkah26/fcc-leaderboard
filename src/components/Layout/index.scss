@@ -1,0 +1,24 @@
+// Dimensions
+$headerHeight: 4rem;
+$footerHeight: 3rem;
+
+.Layout {
+  &__Header {
+    height: $headerHeight;
+  }
+
+  &__Container {
+    height: calc(100vh - #{$headerHeight});
+    overflow-y: auto;
+
+    &__Main {
+      min-height: calc(100vh - #{$headerHeight} - #{$footerHeight});
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__Footer {
+      height: $footerHeight;
+    }
+  }
+}

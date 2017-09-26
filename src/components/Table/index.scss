@@ -1,0 +1,53 @@
+@import "../../styles/_colors.scss";
+$grayBorder: 1px solid gray;
+
+.Table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  font-size: 1.2rem;
+
+  &__Row {
+    &:nth-child(even) {
+      background: #dbdbdb;
+    }
+  }
+
+  &__Item {
+    border: $grayBorder;
+    padding: 0.5rem;
+
+    &--center {
+      text-align: center;
+    }
+
+    &--left {
+      text-align: left;
+    }
+
+    &--button {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    &--selected::after {
+      content: "\25BC";
+    }
+  }
+
+  &__User {
+    display: flex;
+    align-items: center;
+    color: $linkBlue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      height: 3rem;
+      margin-right: 0.5rem;
+    }
+  }
+}

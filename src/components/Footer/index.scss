@@ -1,0 +1,14 @@
+@import "../../styles/_colors.scss";
+
+.Footer {
+  background: $fccGreen;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  &__Link {
+    color: white;
+  }
+}
