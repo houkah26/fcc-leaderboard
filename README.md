@@ -1,5 +1,5 @@
 # FreeCodeCamp Camper Leaderboard
-Simple camper leaderboard built as a practice project to try out using the BEM methodology along with Sass and React.
+Simple camper leaderboard built as a practice project to try out using BEM methodology along with Sass and React.
 
 [Link to App](https://leaderbord-fcc.herokuapp.com/)
 
